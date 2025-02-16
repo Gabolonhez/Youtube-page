@@ -39,6 +39,7 @@
     flex-grow: 1;
     position: relative;
     justify-content: center; 
+    cursor: pointer;
 }
 
 .search input {
@@ -76,13 +77,14 @@ main {
     font-family: 'Roboto', Times, serif;
 }
 
-.video__watch {
+.Watch {
     display: flex;
     flex-direction: column;
     margin: 0 3rem;
     gap: 1rem;
     padding: 30px;
     width: 1000px;;
+    height: 930px;
 }
 
 .video__info h1 {
@@ -115,7 +117,6 @@ main {
    height: 40px;
    border-radius: 2px;
    cursor: pointer;
-   
 }
 
 .video__topics {
@@ -149,3 +150,40 @@ main {
 .video__description p {
     width: 600px;
 }
+
+.Recommendations {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1000px;
+    justify-content: flex-end;
+    position: absolute;
+    align-items: center;
+}
+
+.recommendation__videos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.recommendation {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+} 
+
+.recommendation__informations {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 10px;
+} 
+
+.recommendation__informations h3 {
+    font-size: 14px;
+} 
+
+.recommendation__informations p {
+    font-size: 12px;
+    flex-wrap: wrap;
+} 
