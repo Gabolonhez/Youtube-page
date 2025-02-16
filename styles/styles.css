@@ -1,0 +1,72 @@
+:root {
+    --black-font-color: #000000;
+    --gray-font-color: #515151;
+    --white-font-color: #FFFFFF;
+
+    --main-background-color: #f7f4f4;
+    --second-background-color: #FFFFFF;
+}
+
+/* Header */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Alinha verticalmente os itens */
+    padding: 10px ; /* Espaçamento interno */
+    background-color: var(--white-font-color); /* Cor de fundo branca */
+    height: 60px; /* Altura da barra */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    position: relative; /* Para posicionar elementos absolutamente dentro */
+    gap: 2rem;
+}
+
+
+.siderbar {
+    margin-right: 20px;
+}
+
+.youtube-logo {
+    margin-right: 20px;
+}
+
+.search {
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    justify-content: center; 
+}
+
+.search input {
+    background-color: var(--main-background-color);
+    width: 348px;
+    height: 40px;
+}
+
+.search input::placeholder {
+  text-align: center;
+}
+
+.search-logo {
+    display: flex;
+    align-items: center;
+
+    width: 50px;
+    border: 1px solid var(--main-background-color);
+    justify-content: center;
+}
+
+
+.profile img {
+    width: 40px;
+    border: 1px solid var(--black-font-color);
+    border-radius: 100%;
+}
+
+
+/* Main */
+
+main {
+    background-color: var(--main-background-color);
+}
+
