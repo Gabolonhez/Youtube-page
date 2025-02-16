@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --black-font-color: #000000;
     --gray-font-color: #515151;
@@ -5,6 +7,8 @@
 
     --main-background-color: #f7f4f4;
     --second-background-color: #FFFFFF;
+
+    --subscribe-color: red;
 }
 
 /* Header */
@@ -68,5 +72,80 @@
 
 main {
     background-color: var(--main-background-color);
+    color: #000000;
+    font-family: 'Roboto', Times, serif;
 }
 
+.video__watch {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem;
+    gap: 1rem;
+    padding: 30px;
+    width: 1000px;;
+}
+
+.video__info h1 {
+    width: 1200px;
+    font-size: 20px;
+}
+
+.video__informations {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 2.5rem;
+    margin-top: 15px;
+    position: relative;
+}
+
+.video__channel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.subscribe-button {
+   background-color: var(--subscribe-color);
+   color: var(--white-font-color);
+   width: 159px;
+   height: 40px;
+   border-radius: 2px;
+   cursor: pointer;
+   
+}
+
+.video__topics {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.video__like, .video__unlike, .video__share, .video__download {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.video__description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.video__description  h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.video__description p {
+    width: 600px;
+}
