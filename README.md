@@ -3,7 +3,7 @@
 
 ## 📑 Descrição
 
-Réplica da página de assistir um vídeo do youtube.
+Réplica da página de assistir vídeo do youtube.
 
 ## 🎯 Funcionalidades
 
