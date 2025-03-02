@@ -11,5 +11,5 @@ Réplica da página de assistir vídeo do youtube.
 - `HTML`
 - `CSS`
   
-## 🎨 Link do Figma
+## 🎨 Protótipo (Figma)
 [https://www.figma.com/design/yHsISJWW7rdDEIkSdVxALa/Desafio-de-Flexbox---DIO-(Copy)?node-id=1-2&t=Fh7u3AIIHIRBbllF-1](https://www.figma.com/design/yHsISJWW7rdDEIkSdVxALa/Desafio-de-Flexbox---DIO-(Copy)?node-id=1-2&t=Fh7u3AIIHIRBbllF-1)
